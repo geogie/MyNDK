@@ -8,6 +8,9 @@
  2. 生成jar:lib（jar级别的module）中，build/libs/lib.jar
  3. 使用：把libnative-lib.so放进jniLibs下，lib.jar放到libs下。你会发现奇迹般的可以用jar+so。
 # 注意：别忘记加读写权限。不然...坑。
-
-[参考](http://www.jianshu.com/p/b4a4cd12d528)  
+ 1. JNI：（Java Native Interface）：Java调用C/C++，C/C++调用Java的一套API。
+ 2. NDK 调试 ndk-stack
+ 
+[参考1](http://www.jianshu.com/p/b4a4cd12d528)  
+[参考2](http://www.jianshu.com/p/8191a654dcb8) 
 
